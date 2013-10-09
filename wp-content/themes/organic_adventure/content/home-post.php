@@ -10,6 +10,7 @@
 		<h2 class="headline small"><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'organicthemes' ), the_title_attribute( 'echo=0' ) ) ); ?>"><?php the_title(); ?></a></h2>
 	</div>
 	
+	<!--
 	<?php if ( get_post_meta($post->ID, 'featurevid', true) ) { ?>
 		<div class="feature-vid"><?php echo get_post_meta($post->ID, 'featurevid', true); ?></div>
 	<?php } else { ?>
@@ -17,6 +18,7 @@
 			<div class="feature-img"><?php the_post_thumbnail( 'featured-medium' ); ?></div>
 		<?php } ?>
 	<?php } ?>
+	-->
 	
 	<div class="article">
 		<?php the_content(__("Read More", 'organicthemes')); ?>

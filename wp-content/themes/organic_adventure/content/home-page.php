@@ -12,7 +12,6 @@
 	
 	<div class="home-social">
 		<div class="title"><?php _e("Follow Me", 'organicthemes'); ?></div>
-		<?php get_template_part( 'content/social' ); ?>
 	</div>
 
 <!-- END .eleven columns -->
