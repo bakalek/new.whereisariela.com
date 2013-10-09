@@ -4,6 +4,8 @@ wp-content/uploads/*
 wp-content/uploads
 test.php
 test2.php
+wp-content/plugins/password-protect-wordpress/lava/_cache/
+wp-content/plugins/password-protect-wordpress/lava/_cache/*
 
 
 # Compiled source #
