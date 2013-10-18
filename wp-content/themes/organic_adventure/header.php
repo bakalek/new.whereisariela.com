@@ -44,7 +44,7 @@
 <script>
 		$(document).ready(function() {
 			$("body").ezBgResize({
-				img     : "/image/bg.jpg", // Relative path example.  You could also use an absolute url (http://...).
+				img     : "http://new.whereisariela.com/image/bg.jpg", // Relative path example.  You could also use an absolute url (http://...).
 				opacity : 1, // Opacity. 1 = 100%.  This is optional.
 				center  : true // Boolean (true or false). This is optional. Default is true.
 			});
