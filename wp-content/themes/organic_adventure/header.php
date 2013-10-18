@@ -39,6 +39,18 @@
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
 <?php wp_head(); ?>
+
+<script src="/js/jquery.ez-bg-resize.js" type="text/javascript" charset="utf-8"></script>
+<script>
+		$(document).ready(function() {
+			$("body").ezBgResize({
+				img     : "/image/bg.jpg", // Relative path example.  You could also use an absolute url (http://...).
+				opacity : 1, // Opacity. 1 = 100%.  This is optional.
+				center  : true // Boolean (true or false). This is optional. Default is true.
+			});
+		});
+	</script>
+
 </head>
 
 <body <?php body_class(); ?>>
